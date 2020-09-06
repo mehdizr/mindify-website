@@ -1,0 +1,116 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+:root {
+  --primary-color: #095cfd;
+  --secondery-color: #9dadc0;
+  --third-color: #4c98ef;
+  --light-color: #ffffff;
+  --dark-color: #3f4857;
+  --max-width: 1100px;
+}
+
+/////////////////////////
+//       Fonts        //
+///////////////////////
+@font-face {
+  font-family: "Gilroy-Bold ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../font/Gilroy-Bold ☞"),
+    url("../font/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Heavy ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../font/Gilroy-Heavy ☞"),
+    url("../font/Gilroy-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Light ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../font/Gilroy-Light ☞"),
+    url("../font/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../font/Gilroy-Medium ☞"),
+    url("../font/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular ☞";
+  font-style: normal;
+  font-weight: normal;
+  src: local("../font/Gilroy-Regular ☞"),
+    url("../font/Gilroy-Regular.woff") format("woff");
+}
+.App {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #f3f3f3;
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+  }
+
+  p {
+    font-family: Gilroy-Regular ☞;
+    margin: 0.5rem 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    /* padding: 1rem; */
+    font-family: "Gilroy-Medium ☞";
+    margin-bottom: 0.55rem;
+    line-height: 1.3;
+  }
+  .py-1 {
+    padding: 1.5rem 0;
+  }
+  .py-2 {
+    padding: 2rem 0;
+  }
+  .py-3 {
+    padding: 3rem 0;
+  }
+  .p-1 {
+    padding: 1.5rem;
+  }
+  .p-2 {
+    padding: 2rem;
+  }
+  .p-3 {
+    padding: 3rem;
+  }
+}
